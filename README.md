@@ -1,9 +1,14 @@
 <!-- BEGIN_TF_DOCS -->
+[![Tests](https://github.com/terraform-cisco-modules/terraform-intersight-policies-fibre-channel-network/actions/workflows/terratest.yml/badge.svg)](https://github.com/terraform-cisco-modules/terraform-intersight-policies-fibre-channel-network/actions/workflows/terratest.yml)
 # Terraform Intersight Policies - Fibre Channel Network
 Manages Intersight Fibre Channel Network Policies
 
 Location in GUI:
 `Policies` » `Create Policy` » `Fibre Channel Network`
+
+## Easy IMM
+
+[*Easy IMM - Comprehensive Example*](https://github.com/terraform-cisco-modules/easy-imm-comprehensive-example) - A comprehensive example for policies, pools, and profiles.
 
 ## Example
 
@@ -77,7 +82,6 @@ Windows
 $env:TF_VAR_apikey="<your-api-key>"
 $env:TF_VAR_secretkey="<secret-key-file-location>"
 ```
-
 
 ## Requirements
 
